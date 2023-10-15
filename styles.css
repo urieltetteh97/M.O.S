@@ -68,7 +68,7 @@ h3 {
 
 
 img {
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: right;
 }
 
