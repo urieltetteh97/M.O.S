@@ -54,12 +54,14 @@ hr {
     flex-wrap: wrap;
     justify-content: space-between;
     
+    
 }
 
 
 h3 {
     color: aqua;
     flex-direction: column;
+    align-items: left;
 }
 
 
@@ -67,6 +69,7 @@ h3 {
 
 img {
     flex-direction: row-reverse;
+    align-items: right;
 }
 
 
