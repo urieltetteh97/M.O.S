@@ -53,12 +53,14 @@ hr {
     height: min-content;
 }
 
-p{
+.highlight1{
+    border-radius: 70%;
+    display: grid;
+    grid-template-columns: 1 1 2;
+    grid-template-rows: auto;
     
 }
 
-h1{
-    shape-outside: ellipse();
-    display: flex;
-    justify-content: center;
+.header-one{
+    grid-column: span;  
 }
