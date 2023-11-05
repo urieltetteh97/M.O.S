@@ -54,6 +54,7 @@ hr {
     display: flex;
     background-image: url("Images/5-cool-backgrounds_0003_bg4.jpg")
     background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
 }
 
