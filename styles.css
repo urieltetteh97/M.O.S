@@ -52,7 +52,8 @@ hr {
 
 .flex-container {
     display: flex;
-    background-image: url("./M.O.S/Images/utsav-srestha-HeNrEdA4Zp4-unsplash.jpg")
+    background-image: url("../images/utsav-srestha-HeNrEdA4Zp4-unsplash.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
