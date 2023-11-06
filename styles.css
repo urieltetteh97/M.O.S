@@ -52,10 +52,10 @@ hr {
 
 .flex-container {
     display: flex;
-    background-image: url("Images/5-cool-backgrounds_0003_bg4.jpg")
-    background-size: cover;
+    background-image: url("./M.O.S/Images/utsav-srestha-HeNrEdA4Zp4-unsplash.png")
     background-repeat: no-repeat;
     height: 500px;
+    width: 100%;
 }
 
 .picture {
