@@ -108,12 +108,22 @@ hr {
 
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: flex-start;
+}
 .picture {
 
     width: 200px;
     margin: 10px;
     height: 80%;
-
 
 
 }
@@ -124,6 +134,7 @@ hr {
     text-align: left;
     line-height: 100px;
     font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -134,6 +145,7 @@ hr {
     text-align: right;
     line-height: 100px;
     font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 .title3 {
@@ -142,6 +154,7 @@ hr {
     text-align: right;
     line-height: 100px;
     font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -151,6 +164,7 @@ hr {
     text-align: right;
     line-height: 100px;
     font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 }
@@ -161,19 +175,21 @@ hr {
     text-align: right;
     line-height: 100px;
     font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-h2{
-    color: aqua;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
-      
-}
+
+
 
 img {
     height: 80%;
 }
 
+footer {
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+}
 
 
 
