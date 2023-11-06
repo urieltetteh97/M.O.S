@@ -151,7 +151,7 @@ hr {
 .title3 {
     width: 200px;
     margin-top: 300px;
-    text-align: right;
+    text-align: left;
     line-height: 100px;
     font-size: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -161,6 +161,7 @@ hr {
 .title4{
     width: 200px;
     margin-top: 300px;
+    margin-left: 900px;
     text-align: right;
     line-height: 100px;
     font-size: 100px;
@@ -172,7 +173,7 @@ hr {
 .title5{
     width: 200px;
     margin-top: 300px;
-    text-align: right;
+    text-align: left;
     line-height: 100px;
     font-size: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -189,6 +190,13 @@ footer {
         color: white;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: medium;
+}
+
+.closingfooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: grey;
 }
 
 
