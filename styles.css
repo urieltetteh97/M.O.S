@@ -57,6 +57,55 @@ hr {
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.flex-container2 {
+    display: flex;
+    background-image: url("../images/georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.flex-container3 {
+    display: flex;
+    background-image: url("../images/nastuh-abootalebi-rSpMla5RItA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+.flex-container4{
+    display: flex;
+    background-image: url("../images/hans-eiskonen-13sk8LUVwMg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+.flex-container5{
+    display: flex;
+    background-image: url("../images/alexey-savchenko-k4Akpt5-Sfk-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+
 }
 
 .picture {
@@ -71,8 +120,44 @@ hr {
 
 .title { 
     width: 200px;
-    margin-top: 400px;
+    margin-top: 300px;
     text-align: left;
+    line-height: 100px;
+    font-size: 100px;
+
+}
+
+.title2 {
+    width: 200px;
+    margin-top: 300px;
+    text-align: right;
+    line-height: 100px;
+    font-size: 100px;
+    
+}
+.title3 {
+    width: 200px;
+    margin-top: 300px;
+    text-align: right;
+    line-height: 100px;
+    font-size: 100px;
+
+}
+
+.title4{
+    width: 200px;
+    margin-top: 300px;
+    text-align: right;
+    line-height: 100px;
+    font-size: 100px;
+
+
+}
+
+.title5{
+    width: 200px;
+    margin-top: 300px;
+    text-align: right;
     line-height: 100px;
     font-size: 100px;
 
