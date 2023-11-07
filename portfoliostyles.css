@@ -61,6 +61,17 @@ hr {
     
 }
 
-.header-one{
-    grid-column: span;  
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: aqua;
+    border: 15px solid teal;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
 }
+
