@@ -79,6 +79,10 @@ hr {
 .h1{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    margin: 30px;
+    font-size: 25px;
+    
     
 }
 
