@@ -1,5 +1,5 @@
 body{
-    color: black;
+    color: aqua;
     background-color: black;
 }
 
@@ -24,6 +24,13 @@ img {
 hr {
     color: aqua;
 }
+.navbar__container li {
+        display: inline-block;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
 
 .navbar__container ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
