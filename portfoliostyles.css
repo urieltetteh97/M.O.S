@@ -75,14 +75,25 @@ hr {
     
     
 }
+h3{
 
-.h1{
+}
+
+.AP{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
     font-size: 25px;
     
-    
+}
+h5 {
+    margin-left: 130px;
+    margin-top: 0px;
 }
 
+.apimages {
+    display: flex;
+    flex-direction: row;
+}
