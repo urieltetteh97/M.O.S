@@ -1,0 +1,47 @@
+body {
+    color: aqua;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0%;
+}
+
+
+img {
+
+    position: inherit;
+}
+
+hr {
+    color: aqua;
+}
+.navbar__container ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navbar__container a{
+    justify-content: space-between;
+    text-decoration: none;
+    color: aqua;
+    width: 100px;
+    display: block;
+
+}
+
+.navbar__container li {
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
