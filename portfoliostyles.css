@@ -98,4 +98,5 @@ h5 {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    min-width: 10px;
 }
