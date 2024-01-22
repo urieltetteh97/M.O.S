@@ -25,6 +25,10 @@ img {
 hr {
     color: aqua;
 }
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .navbar__container li {
         display: inline-block;
         flex-direction: row;
@@ -48,4 +52,13 @@ hr {
     width: 100px;
     display: block;
 
+}
+
+.resourcepageheader{
+    display: inline-block;
+    text-align: center;
+}
+
+.rheader{
+    background-image: image("../images/3d-3440x1440-glass-5k-16368.jpg");
 }
