@@ -33,6 +33,7 @@ hr {
     list-style: none;
     text-align: center;
     justify-content: space-between;
+    padding: 0;
 }
 
 .navbar__container a{
