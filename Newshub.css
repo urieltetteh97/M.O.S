@@ -23,6 +23,9 @@ img {
 hr {
     color: aqua;
 }
+ul{
+    padding-left: 0;
+}
 .navbar__container ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
