@@ -14,7 +14,7 @@ body {
     position: relative;
     padding: 0%;
     margin: 0%;
-    height: 150px;
+    height: 80px;
 }
 
 
@@ -52,6 +52,11 @@ hr {
     position: relative;
 }
 
+.navbar__container li a:hover{
+    color: white;
+    background-color: grey;
+}
+
 .flex-container {
     display: flex;
     background-image: url("../images/utsav-srestha-HeNrEdA4Zp4-unsplash.jpg");
@@ -61,6 +66,7 @@ hr {
     width: 100%;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+   
 }
 
 .flex-container2 {
