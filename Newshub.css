@@ -40,6 +40,11 @@ hr {
 
 }
 
+.navbar__container li a:hover{
+    color: white;
+    background-color: grey;
+}
+
 .navbar__container li {
     display: inline-block;
     flex-direction: row;
