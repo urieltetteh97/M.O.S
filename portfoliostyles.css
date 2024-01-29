@@ -12,6 +12,8 @@ body {
     justify-content: center;
     position: relative;
     padding: 0%;
+    height: 80px;
+    margin: 0;
 }
 
 img {
@@ -45,6 +47,11 @@ hr {
     align-items: center;
     justify-content: space-between;
     position: relative;
+}
+
+.navbar__container li a:hover{
+    color: white;
+    background-color: grey;
 }
 
 .flex-container {
