@@ -15,22 +15,42 @@
              <a href="Home.html"><img src="Images/MOS.png" alt="" width="200" height="200"></a>
     </div>
     <hr class="border border-3 border-primary">
-    <nav class="navbar navbar-expand-lg justify-content-center">
-        <ul class="navbar list-unstyled">
-            <li class="nav-item px-2 fw-bold text-white"><a class="text-decoration-none nav-item px-2 fw-bold text-white" href="#">Home</a></li>
-            <li class="nav-item px-2 fw-bold text-white"> Portfolio</li>
-            <li class="nav-item px-2 fw-bold text-white"> Resources</li>
-        </ul>
 
 
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid justify-content-xl-center">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="Portfolio.html">Portfolios</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">News Hub</a></li>
+                  <li><a class="dropdown-item" href="#">Resources</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     
 
 </header> 
 <body class="bg-black">
     
     <hr>
-    <div style="background-image: url(Images/cool-backgrounds-hd.jpeg); background-position: center; background-size: cover; height: 500px;" class="container border border-0 rounded-top-3 rounded-bottom-3">
+    <div style="background-image: url(Images/oceanwaves.gif); background-position: center; background-size: cover; height: 500px;" class="container border border-0 rounded-top-3 rounded-bottom-3">
 
     
 
@@ -44,18 +64,17 @@
 
     </div>
 
-    <div style="background-image: url(Images/hans-eiskonen-13sk8LUVwMg-unsplash.jpg); background-position: center; background-size: cover; height: 300px;" class="container-fluid border border-0 rounded-top-3 rounded-bottom-3">
+    <div style="background-image: url(Images/hans-eiskonen-13sk8LUVwMg-unsplash.jpg); background-position: center; background-size: cover; height: 300px;" class="text-end  container-fluid border border-0 rounded-top-3 rounded-bottom-3">
 
-        <h1 class="fw-bold text-white fs-2 ps-lg-5">ARCHITECTURE</h1>
-
-    </div>
-
-    <div style="background-image: url(Images/cool-backgrounds-hd.jpeg); background-position: center; background-size: cover; height: 300px;" class="container-fluid border border-0 rounded-top-3 rounded-bottom-3">
-
-        <h1 class="fw-bold text-white fs-2 ps-lg-5">RESOURCES</h1>
+        <h1 class="fw-bold text-white fs-2 ps-lg-5 pt-lg-5">ARCHITECTURE</h1>
 
     </div>
 
+    <div style="background-image: url(Images/cool-backgrounds-hd.jpeg); background-position: center; background-size: cover; height: 300px;" class="text-start container-fluid border border-0 rounded-top-3 rounded-bottom-3">
+
+        <h1 class="fw-bold text-white fs-2 ps-lg-5 pt-lg-5">RESOURCES</h1>
+
+    </div>
 
 
 
@@ -64,16 +83,24 @@
 
 
 
-    <footer>
+
+    <footer class="pt-lg-3">
         
-            <div class="text-lg-start"> <img src="./Images/MOS.png" width="200" height="200" alt=""></div>
-        <div class=" flex-lg-row px-lg-3">
-            <li>ABOUT</li>
-            <li>TERMS OF USE</li>
-            <li>PRIVACY POLICY</li>
-            <li>LICENSING AGREEMENT</li>
-        </div>
+            <div class="text-lg-center text-sm-center">
+               <img src="./Images/MOS.png" width="200" height="200" alt="">
+            </div>
+
+
+        
         <br>
+        <div class="px-lg-3">
+          <ul style="list-style: none; display: flex;" class="justify-content-around">
+              <li class="text-white">ABOUT</li>
+              <li class="text-white">TERMS OF USE</li>
+              <li class="text-white">PRIVACY POLICY</li>
+              <li class="text-white">LICENSING AGREEMENT</li>
+          </ul>
+        </div>
 
         <div class="text-lg-center fw-medium text-white">@MAXEDOUTSTUDIOS ALL RIGHTS RESERVED</div>
     </footer>
